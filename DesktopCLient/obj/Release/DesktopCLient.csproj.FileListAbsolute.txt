@@ -1,0 +1,13 @@
+C:\Users\Sziszka\source\repos\KisokosWCF\DesktopCLient\bin\Release\DesktopCLient.exe.config
+C:\Users\Sziszka\source\repos\KisokosWCF\DesktopCLient\bin\Release\DesktopCLient.exe
+C:\Users\Sziszka\source\repos\KisokosWCF\DesktopCLient\bin\Release\DesktopCLient.pdb
+C:\Users\Sziszka\source\repos\KisokosWCF\DesktopCLient\obj\Release\DesktopCLient.csprojResolveAssemblyReference.cache
+C:\Users\Sziszka\source\repos\KisokosWCF\DesktopCLient\obj\Release\DesktopCLient.AllContact.resources
+C:\Users\Sziszka\source\repos\KisokosWCF\DesktopCLient\obj\Release\DesktopCLient.Form1.resources
+C:\Users\Sziszka\source\repos\KisokosWCF\DesktopCLient\obj\Release\DesktopCLient.Kisokos.resources
+C:\Users\Sziszka\source\repos\KisokosWCF\DesktopCLient\obj\Release\DesktopCLient.PopUpForm.resources
+C:\Users\Sziszka\source\repos\KisokosWCF\DesktopCLient\obj\Release\DesktopCLient.Properties.Resources.resources
+C:\Users\Sziszka\source\repos\KisokosWCF\DesktopCLient\obj\Release\DesktopCLient.csproj.GenerateResource.Cache
+C:\Users\Sziszka\source\repos\KisokosWCF\DesktopCLient\obj\Release\DesktopCLient.csproj.CoreCompileInputs.cache
+C:\Users\Sziszka\source\repos\KisokosWCF\DesktopCLient\obj\Release\DesktopCLient.exe
+C:\Users\Sziszka\source\repos\KisokosWCF\DesktopCLient\obj\Release\DesktopCLient.pdb

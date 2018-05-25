@@ -1,0 +1,10 @@
+C:\Users\Sziszka\source\repos\KisokosWCF\Server\bin\Release\Server.exe.config
+C:\Users\Sziszka\source\repos\KisokosWCF\Server\bin\Release\Server.exe
+C:\Users\Sziszka\source\repos\KisokosWCF\Server\bin\Release\Server.pdb
+C:\Users\Sziszka\source\repos\KisokosWCF\Server\bin\Release\ThirdWcfService.dll
+C:\Users\Sziszka\source\repos\KisokosWCF\Server\bin\Release\ThirdWcfService.pdb
+C:\Users\Sziszka\source\repos\KisokosWCF\Server\bin\Release\ThirdWcfService.dll.config
+C:\Users\Sziszka\source\repos\KisokosWCF\Server\obj\Release\Server.csprojResolveAssemblyReference.cache
+C:\Users\Sziszka\source\repos\KisokosWCF\Server\obj\Release\Server.csproj.CoreCompileInputs.cache
+C:\Users\Sziszka\source\repos\KisokosWCF\Server\obj\Release\Server.exe
+C:\Users\Sziszka\source\repos\KisokosWCF\Server\obj\Release\Server.pdb

@@ -1,0 +1,7 @@
+C:\Users\Sziszka\source\repos\KisokosWCF\ThirdWcfService\bin\ThirdWcfService.dll.config
+C:\Users\Sziszka\source\repos\KisokosWCF\ThirdWcfService\bin\ThirdWcfService.dll
+C:\Users\Sziszka\source\repos\KisokosWCF\ThirdWcfService\bin\ThirdWcfService.pdb
+C:\Users\Sziszka\source\repos\KisokosWCF\ThirdWcfService\obj\Release\ThirdWcfService.csproj.CoreCompileInputs.cache
+C:\Users\Sziszka\source\repos\KisokosWCF\ThirdWcfService\obj\Release\ThirdWcfService.dll
+C:\Users\Sziszka\source\repos\KisokosWCF\ThirdWcfService\obj\Release\ThirdWcfService.pdb
+C:\Users\Sziszka\source\repos\KisokosWCF\ThirdWcfService\obj\Release\ThirdWcfService.csprojResolveAssemblyReference.cache
