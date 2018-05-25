@@ -33,6 +33,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.UsernameField = new System.Windows.Forms.TextBox();
             this.PasswordField = new System.Windows.Forms.TextBox();
+            this.errorMessage = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // loginButton
@@ -80,11 +81,20 @@
             this.PasswordField.TabIndex = 4;
             this.PasswordField.TextChanged += new System.EventHandler(this.PasswordField_TextChanged);
             // 
+            // errorMessage
+            // 
+            this.errorMessage.AutoSize = true;
+            this.errorMessage.Location = new System.Drawing.Point(36, 149);
+            this.errorMessage.Name = "errorMessage";
+            this.errorMessage.Size = new System.Drawing.Size(0, 13);
+            this.errorMessage.TabIndex = 5;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(298, 186);
+            this.Controls.Add(this.errorMessage);
             this.Controls.Add(this.PasswordField);
             this.Controls.Add(this.UsernameField);
             this.Controls.Add(this.label2);
@@ -105,6 +115,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox UsernameField;
         private System.Windows.Forms.TextBox PasswordField;
+        private System.Windows.Forms.Label errorMessage;
     }
 }
 

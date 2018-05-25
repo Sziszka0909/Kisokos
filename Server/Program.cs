@@ -17,6 +17,7 @@ namespace Server
             ThirdWcfService.MyService service = new ThirdWcfService.MyService();
             ServiceHost host = new ServiceHost(service);
             host.Open();
+            Console.WriteLine("The server is running...");
             Console.Read();
         }
     }

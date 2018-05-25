@@ -103,8 +103,14 @@ namespace ThirdWcfService
                 string pass = users[username];
                 if (pass.Equals(password))
                 {
+                    try
+                    {
                     ids.Add(username, Guid.NewGuid());
                     return true;
+                    } catch (ArgumentException)
+                    {
+                        return false;
+                    }
                 }
                 return false;
             }

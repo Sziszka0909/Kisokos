@@ -82,7 +82,7 @@ namespace Client
                 }
                 else
                 {
-                    Console.WriteLine("Invalid username or password.");
+                    Console.WriteLine("Invalid username or password or you already logged in on another computer.");
                 }
             }
 

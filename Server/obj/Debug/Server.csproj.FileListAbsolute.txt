@@ -18,3 +18,13 @@ C:\Users\Sziszka\source\repos\ContactWCF\ContactList\Server\obj\Debug\Server.csp
 C:\Users\Sziszka\source\repos\ContactWCF\ContactList\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
 C:\Users\Sziszka\source\repos\ContactWCF\ContactList\Server\obj\Debug\Server.exe
 C:\Users\Sziszka\source\repos\ContactWCF\ContactList\Server\obj\Debug\Server.pdb
+C:\Users\Sziszka\source\repos\KisokosWCF\Server\bin\Debug\Server.exe.config
+C:\Users\Sziszka\source\repos\KisokosWCF\Server\bin\Debug\Server.exe
+C:\Users\Sziszka\source\repos\KisokosWCF\Server\bin\Debug\Server.pdb
+C:\Users\Sziszka\source\repos\KisokosWCF\Server\bin\Debug\ThirdWcfService.dll
+C:\Users\Sziszka\source\repos\KisokosWCF\Server\bin\Debug\ThirdWcfService.pdb
+C:\Users\Sziszka\source\repos\KisokosWCF\Server\bin\Debug\ThirdWcfService.dll.config
+C:\Users\Sziszka\source\repos\KisokosWCF\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+C:\Users\Sziszka\source\repos\KisokosWCF\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\Sziszka\source\repos\KisokosWCF\Server\obj\Debug\Server.exe
+C:\Users\Sziszka\source\repos\KisokosWCF\Server\obj\Debug\Server.pdb

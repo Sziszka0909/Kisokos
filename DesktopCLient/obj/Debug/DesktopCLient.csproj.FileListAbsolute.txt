@@ -24,3 +24,16 @@ C:\Users\Sziszka\source\repos\ContactWCF\ContactList\DesktopCLient\obj\Debug\Des
 C:\Users\Sziszka\source\repos\ContactWCF\ContactList\DesktopCLient\obj\Debug\DesktopCLient.csproj.CoreCompileInputs.cache
 C:\Users\Sziszka\source\repos\ContactWCF\ContactList\DesktopCLient\obj\Debug\DesktopCLient.exe
 C:\Users\Sziszka\source\repos\ContactWCF\ContactList\DesktopCLient\obj\Debug\DesktopCLient.pdb
+C:\Users\Sziszka\source\repos\KisokosWCF\DesktopCLient\bin\Debug\DesktopCLient.exe.config
+C:\Users\Sziszka\source\repos\KisokosWCF\DesktopCLient\bin\Debug\DesktopCLient.exe
+C:\Users\Sziszka\source\repos\KisokosWCF\DesktopCLient\bin\Debug\DesktopCLient.pdb
+C:\Users\Sziszka\source\repos\KisokosWCF\DesktopCLient\obj\Debug\DesktopCLient.AllContact.resources
+C:\Users\Sziszka\source\repos\KisokosWCF\DesktopCLient\obj\Debug\DesktopCLient.Form1.resources
+C:\Users\Sziszka\source\repos\KisokosWCF\DesktopCLient\obj\Debug\DesktopCLient.Kisokos.resources
+C:\Users\Sziszka\source\repos\KisokosWCF\DesktopCLient\obj\Debug\DesktopCLient.PopUpForm.resources
+C:\Users\Sziszka\source\repos\KisokosWCF\DesktopCLient\obj\Debug\DesktopCLient.Properties.Resources.resources
+C:\Users\Sziszka\source\repos\KisokosWCF\DesktopCLient\obj\Debug\DesktopCLient.csproj.GenerateResource.Cache
+C:\Users\Sziszka\source\repos\KisokosWCF\DesktopCLient\obj\Debug\DesktopCLient.csproj.CoreCompileInputs.cache
+C:\Users\Sziszka\source\repos\KisokosWCF\DesktopCLient\obj\Debug\DesktopCLient.exe
+C:\Users\Sziszka\source\repos\KisokosWCF\DesktopCLient\obj\Debug\DesktopCLient.pdb
+C:\Users\Sziszka\source\repos\KisokosWCF\DesktopCLient\obj\Debug\DesktopCLient.csprojResolveAssemblyReference.cache
