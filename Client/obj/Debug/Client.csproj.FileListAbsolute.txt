@@ -1,0 +1,13 @@
+C:\Users\Sziszka\source\repos\ThirdWcfService\Client\bin\Debug\Client.exe.config
+C:\Users\Sziszka\source\repos\ThirdWcfService\Client\bin\Debug\Client.exe
+C:\Users\Sziszka\source\repos\ThirdWcfService\Client\bin\Debug\Client.pdb
+C:\Users\Sziszka\source\repos\ThirdWcfService\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\Sziszka\source\repos\ThirdWcfService\Client\obj\Debug\Client.exe
+C:\Users\Sziszka\source\repos\ThirdWcfService\Client\obj\Debug\Client.pdb
+C:\Users\Sziszka\source\repos\ContactWCF\ContactList\Client\bin\Debug\Client.exe.config
+C:\Users\Sziszka\source\repos\ContactWCF\ContactList\Client\bin\Debug\Client.exe
+C:\Users\Sziszka\source\repos\ContactWCF\ContactList\Client\bin\Debug\Client.pdb
+C:\Users\Sziszka\source\repos\ContactWCF\ContactList\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+C:\Users\Sziszka\source\repos\ContactWCF\ContactList\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\Sziszka\source\repos\ContactWCF\ContactList\Client\obj\Debug\Client.exe
+C:\Users\Sziszka\source\repos\ContactWCF\ContactList\Client\obj\Debug\Client.pdb
