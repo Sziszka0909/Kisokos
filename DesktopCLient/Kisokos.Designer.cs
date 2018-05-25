@@ -43,9 +43,9 @@
             // 
             // addContactButton
             // 
-            this.addContactButton.Location = new System.Drawing.Point(474, 30);
+            this.addContactButton.Location = new System.Drawing.Point(31, 100);
             this.addContactButton.Name = "addContactButton";
-            this.addContactButton.Size = new System.Drawing.Size(101, 20);
+            this.addContactButton.Size = new System.Drawing.Size(101, 30);
             this.addContactButton.TabIndex = 0;
             this.addContactButton.Text = "Add contact";
             this.addContactButton.UseVisualStyleBackColor = true;
@@ -53,9 +53,9 @@
             // 
             // deleteContactButton
             // 
-            this.deleteContactButton.Location = new System.Drawing.Point(474, 71);
+            this.deleteContactButton.Location = new System.Drawing.Point(189, 100);
             this.deleteContactButton.Name = "deleteContactButton";
-            this.deleteContactButton.Size = new System.Drawing.Size(101, 20);
+            this.deleteContactButton.Size = new System.Drawing.Size(101, 30);
             this.deleteContactButton.TabIndex = 1;
             this.deleteContactButton.Text = "Delete contact";
             this.deleteContactButton.UseVisualStyleBackColor = true;
@@ -63,9 +63,9 @@
             // 
             // showAllContactButton
             // 
-            this.showAllContactButton.Location = new System.Drawing.Point(473, 115);
+            this.showAllContactButton.Location = new System.Drawing.Point(344, 100);
             this.showAllContactButton.Name = "showAllContactButton";
-            this.showAllContactButton.Size = new System.Drawing.Size(102, 20);
+            this.showAllContactButton.Size = new System.Drawing.Size(102, 30);
             this.showAllContactButton.TabIndex = 2;
             this.showAllContactButton.Text = "Show all contact";
             this.showAllContactButton.UseVisualStyleBackColor = true;
@@ -74,10 +74,10 @@
             // logOutButton
             // 
             this.logOutButton.BackColor = System.Drawing.Color.Red;
-            this.logOutButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.logOutButton.Location = new System.Drawing.Point(66, 111);
+            this.logOutButton.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.logOutButton.Location = new System.Drawing.Point(481, 100);
             this.logOutButton.Name = "logOutButton";
-            this.logOutButton.Size = new System.Drawing.Size(125, 29);
+            this.logOutButton.Size = new System.Drawing.Size(102, 30);
             this.logOutButton.TabIndex = 3;
             this.logOutButton.Text = "Log Out";
             this.logOutButton.UseVisualStyleBackColor = false;
@@ -86,14 +86,14 @@
             // message
             // 
             this.message.AutoSize = true;
-            this.message.Location = new System.Drawing.Point(41, 176);
+            this.message.Location = new System.Drawing.Point(29, 138);
             this.message.Name = "message";
             this.message.Size = new System.Drawing.Size(0, 13);
             this.message.TabIndex = 4;
             // 
             // addContactName
             // 
-            this.addContactName.Location = new System.Drawing.Point(105, 30);
+            this.addContactName.Location = new System.Drawing.Point(32, 30);
             this.addContactName.MaxLength = 20;
             this.addContactName.Name = "addContactName";
             this.addContactName.Size = new System.Drawing.Size(100, 20);
@@ -101,7 +101,7 @@
             // 
             // addContactNumber
             // 
-            this.addContactNumber.Location = new System.Drawing.Point(327, 30);
+            this.addContactNumber.Location = new System.Drawing.Point(32, 71);
             this.addContactNumber.MaxLength = 15;
             this.addContactNumber.Name = "addContactNumber";
             this.addContactNumber.Size = new System.Drawing.Size(100, 20);
@@ -110,7 +110,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(26, 34);
+            this.label1.Location = new System.Drawing.Point(29, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(73, 13);
             this.label1.TabIndex = 7;
@@ -119,7 +119,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(239, 37);
+            this.label2.Location = new System.Drawing.Point(29, 55);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(82, 13);
             this.label2.TabIndex = 8;
@@ -128,7 +128,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(239, 78);
+            this.label3.Location = new System.Drawing.Point(187, 55);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(73, 13);
             this.label3.TabIndex = 9;
@@ -136,7 +136,7 @@
             // 
             // deleteContact
             // 
-            this.deleteContact.Location = new System.Drawing.Point(327, 71);
+            this.deleteContact.Location = new System.Drawing.Point(190, 74);
             this.deleteContact.Name = "deleteContact";
             this.deleteContact.Size = new System.Drawing.Size(100, 20);
             this.deleteContact.TabIndex = 10;
@@ -145,7 +145,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(592, 218);
+            this.ClientSize = new System.Drawing.Size(585, 175);
             this.Controls.Add(this.deleteContact);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
