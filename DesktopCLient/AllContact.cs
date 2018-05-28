@@ -22,9 +22,9 @@ namespace DesktopCLient
 
         //When this window is loaded:
         //-I create a new MyServiceClient instance.
-        //-Call the showContact method and the returned value I save it in a new Dictionary.
-        //-Iterate over the Disctionary.
-        //-In the iterate, I append each contact name and contact number to the ContactNames and ContactNumbers fields.
+        //-Call the showContact method and the returned value I save it in a new string[].
+        //-Iterate over the string[].
+        //-In the iterate, I append each contact to the ContactNames fields.
         private void AllContact_Load(object sender, EventArgs e)
         {
             MyServiceClient client = new MyServiceClient();

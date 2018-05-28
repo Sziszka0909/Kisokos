@@ -42,7 +42,7 @@ namespace DesktopCLient
         //This is the Delete button.
         //I clear the message field every click.
         //Initialize a MyServiceClient.
-        //Get the deleteName from the deleteContact field and saved it in the variable.
+        //Get the deleteName from the deleteContact field and the deleteNumber from the deleteContactNumber field and saved it in 2 variable.
         //Message field will equals with the deleteContact method returned value.
         private void deleteContactButton_Click(object sender, EventArgs e)
         {

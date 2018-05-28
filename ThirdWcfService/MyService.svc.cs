@@ -21,42 +21,21 @@ namespace ThirdWcfService
             {"Jim", "Jimpass" },
             {"John", "Johnpass" }
         };
-        //This dictionary contains the contacts in the contactlist.
+        //This list contains the contacts in the contactlist.
         List<string> contacts = new List<string>();
 
-        //I try to add new contact to the contact list.
-        //I lock the contacts dictionary, because I want to restricts code from being executed by more than one thread at the same time.
-        //In error counter I examine the phonenumber contains letter or not.
-        //I examine the contactlist contains the name that I want to be added or not.
-        //If the phonenumber is valid and at least 9 character I add the contact to the contactlist.
-        //Else return error message.
-        //Catch the exception if it generated and return error message.
+        //Concatenate the name and the phonenumber to one variable with an "-" character.
+        //Check the contactList.txt is exists or not.
+        //If exist lock the contacts list and read all lines from that txt file and saved it to that list.
+        //Check the phonenumber is valid or not.
+        //If contacts contains the contact that I want to add that list, I return an error message.
+        //Else if the phonenumber is valid I append that contact to the txt file.
+        //Else I return error message.
+        //If txt file not exists, I check the phonenumber is valid or not.
+        //If the phonenumber is ok, I create a txt file, and append the contact to it.
+        //Else I return error message.
         public string addContact(string name, string phonenumber)
         {
-            /*try
-            {
-                lock (contacts)
-                {
-                    int errorCounter = Regex.Matches(phonenumber, @"[a-zA-Z]").Count;
-                    if (contacts.ContainsKey(name))
-                    {
-                        return "Contactlist already contains this name.";
-
-                    }
-                    else if (errorCounter == 0 && phonenumber.Length > 8)
-                    {
-                        contacts.Add(name, phonenumber);
-                        return "Contact added to contactlist.";
-                    }
-                    else
-                    {
-                        return "Invalid phonenumber.";
-                    }
-                }
-            } catch (Exception e)
-            {
-                return "Our servers are temporarily down. Please try again later.";
-            }*/
             string addContact = name + "-" + phonenumber;
 
             if (File.Exists("contactList.txt"))
@@ -101,12 +80,13 @@ namespace ThirdWcfService
             }
         }
 
-        //I try to add new contact to the contact list.
-        //I lock the contacts dictionary, because I want to restricts code from being executed by more than one thread at the same time.
-        //Examine the contactlist contains the contact or not.
-        //If contains I delete the contact from the dictionary.
-        //Else return error message.
-        //Catch the exception if it generated and return error message.
+        //Concatenae the name and the phonenumber to one variable with an "-" character.
+        //Lock the contacts.
+        //Try to read all lines to contacts list.
+        //If contacts not contains the contact that I want to delete, I return with a nerror message.
+        //Else I delete the whole file, than I create it again and append all contact to it, except the number that I want to delete.
+        //Return a message.
+        //Catch FileNotFoundException is File is not exists and return error message.
         public string deleteContact(string username, string phonenumber)
         {
             string deleteContact = username + "-" + phonenumber;
@@ -176,8 +156,9 @@ namespace ThirdWcfService
             ids.Remove(username);
         }
 
-        //I lock the contacts dictionary, because I want to restricts code from being executed by more than one thread at the same time.
-        //Return with the contactlist(Dictionary).
+        //I lock the contacts list, because I want to restricts code from being executed by more than one thread at the same time.
+        //Try to return a contacts list.
+        //Catch if it not exist, and return an empty list.
         public List<string> showContact()
         {
             lock (contacts)
