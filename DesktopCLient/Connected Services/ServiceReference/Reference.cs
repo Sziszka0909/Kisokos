@@ -34,16 +34,16 @@ namespace DesktopCLient.ServiceReference {
         System.Threading.Tasks.Task<string> addContactAsync(string username, string phonenumber);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMyService/deleteContact", ReplyAction="http://tempuri.org/IMyService/deleteContactResponse")]
-        string deleteContact(string username);
+        string deleteContact(string username, string phonenumber);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMyService/deleteContact", ReplyAction="http://tempuri.org/IMyService/deleteContactResponse")]
-        System.Threading.Tasks.Task<string> deleteContactAsync(string username);
+        System.Threading.Tasks.Task<string> deleteContactAsync(string username, string phonenumber);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMyService/showContact", ReplyAction="http://tempuri.org/IMyService/showContactResponse")]
-        System.Collections.Generic.Dictionary<string, string> showContact();
+        string[] showContact();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMyService/showContact", ReplyAction="http://tempuri.org/IMyService/showContactResponse")]
-        System.Threading.Tasks.Task<System.Collections.Generic.Dictionary<string, string>> showContactAsync();
+        System.Threading.Tasks.Task<string[]> showContactAsync();
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -97,19 +97,19 @@ namespace DesktopCLient.ServiceReference {
             return base.Channel.addContactAsync(username, phonenumber);
         }
         
-        public string deleteContact(string username) {
-            return base.Channel.deleteContact(username);
+        public string deleteContact(string username, string phonenumber) {
+            return base.Channel.deleteContact(username, phonenumber);
         }
         
-        public System.Threading.Tasks.Task<string> deleteContactAsync(string username) {
-            return base.Channel.deleteContactAsync(username);
+        public System.Threading.Tasks.Task<string> deleteContactAsync(string username, string phonenumber) {
+            return base.Channel.deleteContactAsync(username, phonenumber);
         }
         
-        public System.Collections.Generic.Dictionary<string, string> showContact() {
+        public string[] showContact() {
             return base.Channel.showContact();
         }
         
-        public System.Threading.Tasks.Task<System.Collections.Generic.Dictionary<string, string>> showContactAsync() {
+        public System.Threading.Tasks.Task<string[]> showContactAsync() {
             return base.Channel.showContactAsync();
         }
     }

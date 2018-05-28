@@ -49,7 +49,8 @@ namespace DesktopCLient
             message.Text = "";
             MyServiceClient client = new MyServiceClient();
             string deleteName = deleteContact.Text;
-            message.Text = client.deleteContact(deleteName);
+            string deleteNumber = deleteContactNumber.Text;
+            message.Text = client.deleteContact(deleteName, deleteNumber);
         }
 
         //This is the Show all contact button.

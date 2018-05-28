@@ -39,6 +39,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.deleteContact = new System.Windows.Forms.TextBox();
+            this.DeleteNumber = new System.Windows.Forms.Label();
+            this.deleteContactNumber = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // addContactButton
@@ -128,7 +130,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(187, 55);
+            this.label3.Location = new System.Drawing.Point(186, 9);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(73, 13);
             this.label3.TabIndex = 9;
@@ -136,16 +138,34 @@
             // 
             // deleteContact
             // 
-            this.deleteContact.Location = new System.Drawing.Point(190, 74);
+            this.deleteContact.Location = new System.Drawing.Point(189, 30);
             this.deleteContact.Name = "deleteContact";
             this.deleteContact.Size = new System.Drawing.Size(100, 20);
             this.deleteContact.TabIndex = 10;
+            // 
+            // DeleteNumber
+            // 
+            this.DeleteNumber.AutoSize = true;
+            this.DeleteNumber.Location = new System.Drawing.Point(189, 55);
+            this.DeleteNumber.Name = "DeleteNumber";
+            this.DeleteNumber.Size = new System.Drawing.Size(76, 13);
+            this.DeleteNumber.TabIndex = 11;
+            this.DeleteNumber.Text = "Delete number";
+            // 
+            // deleteContactNumber
+            // 
+            this.deleteContactNumber.Location = new System.Drawing.Point(189, 74);
+            this.deleteContactNumber.Name = "deleteContactNumber";
+            this.deleteContactNumber.Size = new System.Drawing.Size(100, 20);
+            this.deleteContactNumber.TabIndex = 12;
             // 
             // Kisokos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(600, 175);
+            this.Controls.Add(this.deleteContactNumber);
+            this.Controls.Add(this.DeleteNumber);
             this.Controls.Add(this.deleteContact);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -178,5 +198,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox deleteContact;
+        private System.Windows.Forms.Label DeleteNumber;
+        private System.Windows.Forms.TextBox deleteContactNumber;
     }
 }

@@ -22,10 +22,10 @@ namespace ThirdWcfService
         string addContact(string username, string phonenumber);
 
         [OperationContract]
-        string deleteContact(string username);
+        string deleteContact(string username, string phonenumber);
 
         [OperationContract]
-        Dictionary<string,string> showContact();
+        List<string> showContact();
 
     }
 }

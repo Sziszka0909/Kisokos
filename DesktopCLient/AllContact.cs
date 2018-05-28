@@ -28,11 +28,10 @@ namespace DesktopCLient
         private void AllContact_Load(object sender, EventArgs e)
         {
             MyServiceClient client = new MyServiceClient();
-            Dictionary<string, string> contacts = client.showContact();
-            for(int i = 0; i < contacts.Count; i++)
+            string[] contacts = client.showContact();
+            for(int i = 0; i < contacts.Length; i++)
             {
-                ContactNames.Text += contacts.Keys.ElementAt(i) + "\n";
-                ContactNumbers.Text += contacts.Values.ElementAt(i) + "\n";
+                ContactNames.Text += contacts.ElementAt(i) + "\n";
             }
         }
         //This is the OK button on the form.
